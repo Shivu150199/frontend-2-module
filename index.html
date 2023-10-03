@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/13fd0d938f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center section-center">
+        <div class="nav-header">
+          <button class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <img src="assets/nav logo.jpeg" alt="logo" class="logo" />
+        </div>
+
+        <div class="nav-page">
+          <ul class="nav-links">
+            <li class="active">
+              <a href="" class="active">home</a>
+            </li>
+            <li>
+              <a href="">explore</a>
+            </li>
+            <li>
+              <a href="">help</a>
+            </li>
+          </ul>
+          <div class="user">
+            <img src="assets/user image.jpeg" alt="user" />
+          </div>
+        </div>
+      </div>
+    </nav>
+   <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="assets/nav logo.jpeg" alt="logo" class="logo" />
+        <div class="user">
+            <img src="assets/user image.jpeg" alt="user" />
+          </div>
+      </div>
+      <!-- links -->
+      <ul class="links">
+        <li >
+          <a href="index.html" class="active">home</a>
+        </li>
+        <li>
+          <a href="#">explore</a>
+        </li>
+        <li>
+          <a href="#">help</a>
+        </li>
+       
+      </ul>
+      <!-- social media -->
+   
+    </aside>
+    <section class="hero">
+      <div class="img-holder">
+        <img src="assets/hero background.svg" alt="" />
+      </div>
+      <div class="content-holder">
+        <p>Trending Now</p>
+        <h2>
+          Mike’s famous salad <br />
+          with cheese
+        </h2>
+        <p>By John Mike</p>
+      </div>
+    </section>
+
+    <section class="search-section">
+      <h2>Search for recipes</h2>
+      <div class="search-input-container">
+        <form class="input-container" id="form">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            class="input"
+            placeholder="search"
+            id="formInput"
+          />
+        </form>
+        <button class="search-icon" type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="btn-container">
+      <button class="btn all">
+        <span>All recipe</span><i class="fa-solid fa-angle-right"></i>
+      </button>
+      <button class="btn veg">
+        <span>veg recipe</span><i class="fa-solid fa-angle-right"></i>
+      </button>
+      <button class="btn non-veg">
+        <span>non-veg recipe</span><i class="fa-solid fa-angle-right"></i>
+      </button>
+    </section>
+
+    <section class="product-container">
+      <div class="filter">
+        <h3>filter</h3>
+        <div class="checkbox-input">
+          <h4>Rating</h4>
+          <div class="checkbox-container">
+            <div class="first-checkbox">
+              <input
+                type="checkbox"
+                name="above"
+                id="above"
+                class="filter-check"
+              />
+              <span>above</span>
+            </div>
+            <div class="first-checkbox">
+              <input
+                type="checkbox"
+                name="below"
+                id="below"
+                class="filter-check"
+              />
+              <span>below</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products"></div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="upper-footer">
+        <div class="about">
+          <img src="assets/nav logo.jpeg" alt="" class="logo" />
+          <p>
+            Cookpal is a recipe website with a wide variety of delicious
+            recipes, easy-to-use search function. Join our community and let's
+            cook together!
+          </p>
+        </div>
+        <div class="company">
+          <h4>company</h4>
+          <div class="link-container">
+            <a href="">home</a>
+            <a href="">about us</a>
+            <a href="">team</a>
+            <a href="">activity</a>
+          </div>
+        </div>
+        <div class="resourse company">
+          <h4>Resources</h4>
+          <div class="link-container">
+            <a href="">blog</a>
+            <a href="">use cases</a>
+            <a href="">testimonial</a>
+            <a href="">insight</a>
+          </div>
+        </div>
+        <div class="e-mail-box">
+          <img src="assets/nav logo.jpeg" alt="" class="logo" />
+          <p>
+            Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan
+            aliquam.
+          </p>
+          <div class="newsletter">
+            <div class="email-input-container">
+              <input type="email" placeholder="email" />
+              <span>@</span>
+            </div>
+            <button class="subscribe">subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <ul class="social-link">
+        <li>
+          <img src="assets/instagram icon.svg" alt="" />
+        </li>
+        <li>
+          <img src="assets/facebook icon.svg" alt="" />
+        </li>
+        <li>
+          <img src="assets/linkedin icon.svg" alt="" />
+        </li>
+        <li>
+          <img src="assets/Twitter.svg" alt="" />
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
