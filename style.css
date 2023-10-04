@@ -462,7 +462,7 @@ margin-left:1rem;
 }
 
 @media screen and (max-width:768px) {
-  .filter,.company,.e-mail-box{
+  .company,.e-mail-box{
     display:none;
   }
   .product-container{
@@ -476,6 +476,10 @@ grid-template-columns:1fr;
     width:auto;
     
   }
+  .checkbox-container{
+    flex-direction:row;
+    gap:2rem;
+  }
   .nav-page{
     display:none;
 
@@ -483,9 +487,9 @@ grid-template-columns:1fr;
   .products{
     grid-template-columns:1fr 1fr;
   }
-  .content-holder{
+  /* .content-holder{
     display:none;
-  }
+  } */
   .toggle-btn{
     display:block;
     border:transparent;
@@ -563,4 +567,49 @@ grid-template-columns:1fr;
     width: 400px;
     display:block;
   }
+    .content-holder{
+    top:1rem;left:1rem;
+  }
+  .content-holder>p:first-child{
+  
+  
+  font-size:1rem;
+  
+}
+.content-holder>h2{
+  
+  font-size:1rem;
+  
+  line-height:.8rem;
+
+}
+.content-holder>p{
+  
+  font-size:.6rem;
+}
+}
+
+
+
+@media screen and (max-width:1100px) {
+  .content-holder{
+    top:2rem;left:2rem;
+  }
+  .content-holder>p:first-child{
+  
+  
+  font-size:1rem;
+  
+}
+.content-holder>h2{
+  
+  font-size:1.5rem;
+  
+  line-height:1.5rem;
+
+}
+.content-holder>p{
+  
+  font-size:.6rem;
+}
 }
